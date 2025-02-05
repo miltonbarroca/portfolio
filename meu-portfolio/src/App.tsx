@@ -1,4 +1,5 @@
 import Header from "./components/header/Header";
+import './styles/main.scss'; // Importa o arquivo Sass principal que contém as variáveis
 
 function App() {
   return (
