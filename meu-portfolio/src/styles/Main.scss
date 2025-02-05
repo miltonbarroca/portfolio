@@ -1,1 +1,9 @@
-@import 'Variables';
+@import './Variables.scss';
+
+body {
+  background-color: $dark-navy;
+  color: white; // Ajuste a cor do texto para contraste
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
