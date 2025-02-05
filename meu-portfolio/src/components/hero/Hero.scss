@@ -1,0 +1,44 @@
+@use "../../styles/Variables" as *;
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: $dark-navy;
+  color: white;
+  padding-top: 100px;
+  
+  .hero-content {
+    
+    h1 {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0 0 30px;
+      color: $green;
+    }
+
+    h2 {
+      font-size: 72px;
+    }
+
+    h3 {
+        font-size: 72px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: $green;
+      color: $dark-navy;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: lighten($green, 10%);
+      }
+    }
+  }
+}
