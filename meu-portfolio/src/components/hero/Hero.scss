@@ -1,17 +1,16 @@
 @use "../../styles/Variables" as *;
 
 .hero {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: $dark-navy;
-  color: white;
-  padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark-navy;
+    padding-top: 150px;
   
-  .hero-content {
-    
+    .hero-content {
+        text-align: center;
+        align-items: flex-start;
+
     h1 {
       font-size: 16px;
       font-weight: bold;
@@ -21,10 +20,14 @@
 
     h2 {
       font-size: 72px;
+      margin: 0;
+      color: $light-slate;
     }
 
     h3 {
         font-size: 72px;
+        margin: 0;
+        color: $slate;
     }
     .btn {
       display: inline-block;
