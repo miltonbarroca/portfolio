@@ -1,7 +1,30 @@
 .header {
-    border: 2px solid red; /* Apenas para debug */
+    border: 2px solid red;
     background-color: #121212;
     color: white;
-    padding: 1rem 2rem;
+    padding: 0 50px;
+
+    nav ul {
+      list-style: none;
+      display: flex; /* itens lado a lado */
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 13px;
+      padding: 10px ;
+    }
+
+  .nav-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3  px;
+  }
+
   }
   
