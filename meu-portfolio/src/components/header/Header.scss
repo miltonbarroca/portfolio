@@ -34,14 +34,14 @@
           transition: color 0.3s ease-in-out;
 
           &:hover {
-            color: $green; // Aplica a cor verde no hover
+            color: $green;
           }
         }
       }
     }
 
     .nav-button {
-      background-color: #007bff;
+      background-color: red;
       color: white;
       border: none;
       padding: 10px 20px;
