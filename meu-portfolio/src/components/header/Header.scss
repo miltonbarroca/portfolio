@@ -9,6 +9,7 @@
   top: 0;
   align-items: center;
   display: flex;
+  backdrop-filter: blur(10px);
 
   nav {
     display: flex;

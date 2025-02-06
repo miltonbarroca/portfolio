@@ -1,0 +1,16 @@
+@use "../../styles/Variables" as *;
+
+.sidebar-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: $test-border;
+}
