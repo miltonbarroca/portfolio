@@ -23,14 +23,13 @@
     position: relative;
 
     &::after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        bottom: -100vh;
-        width: 2px;
-        height: 100vh;
-        background-color: $slate;
-        transform: translateX(-50%);
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -110vh;
+      width: 2px;
+      height: 100vh;
+      background-color: $slate;
     }
 
     li {

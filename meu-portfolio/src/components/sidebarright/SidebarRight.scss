@@ -1,0 +1,24 @@
+@use "../../styles/Variables" as *;
+
+.sidebar-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 100vh;
+  background-color: $dark-navy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 2px;
+    height: 60vh;
+    background-color: $slate;
+    transform: translateX(-50%);
+  }
+}

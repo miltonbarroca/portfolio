@@ -1,0 +1,24 @@
+@use "../../styles/Variables" as *;
+
+.about {
+  padding: 150px 0;
+  background-color: $dark-navy;
+  color: $white;
+  text-align: center;
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: $green;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+}
