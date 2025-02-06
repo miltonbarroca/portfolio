@@ -2,23 +2,39 @@
 
 .about {
   padding: 150px 0;
-  background-color: $dark-navy;
   color: $white;
-  text-align: center;
+  text-align: left;
 
   .container {
     max-width: 800px;
     margin: 0 auto;
-  }
 
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: $green;
+    .subcontainer {
+      position: relative; 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        font-size: 32px;
+        font-family: $font-title;
+        color: $green;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 180px;
+        width: 300px;
+        height: 0.1px;
+        background-color: $slate;
+      }
+    }
   }
 
   p {
-    font-size: 1.2rem;
-    line-height: 1.6;
+    font-family: $font-title;
+    font-size: 20px;
   }
 }
+// https://v4.brittanychiang.com/#jobs
