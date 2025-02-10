@@ -3,7 +3,8 @@ import Hero from "./components/hero/Hero";
 import SidebarLeft from "./components/sidebarleft/SidebarLeft";
 import SidebarRight from "./components/sidebarright/SidebarRight";
 import About from "./components/about/About";
-import Projects from "./components/projects/projects";
+import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
 import "./styles/Main.scss";
 
 
@@ -16,6 +17,7 @@ function App() {
       <SidebarRight />
       <About />
       <Projects />
+      <Contact />
     </>
   );
 }

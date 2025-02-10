@@ -10,7 +10,6 @@ const Header = () => {
                 <li><a href="#experiencia">Experiências</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
-            <button className="nav-button">Botão</button>
         </nav>
     </header>
   );

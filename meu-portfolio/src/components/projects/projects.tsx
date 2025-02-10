@@ -10,6 +10,14 @@ const projects = [
     repo: "https://github.com/miltonbarroca/Tibia-Toolkit",
     techs: ["Python", "Pyautogui", "Pynput", "Opencv-python", "Numpy","Pywin32"],
   },
+  {
+    id: 2,
+    title: "WhatsApp Bot",
+    description: "Bot de WhatsApp desenvolvido para automação de mensagens, envio de lembretes e interações personalizadas. Integrado com a API do WhatsApp para facilitar a comunicação automatizada.",
+    image: "whatsapp-bot.png",
+    repo: "https://github.com/seu-usuario/whatsapp-bot",
+    techs: ["Python", "Pandas", "Numpy","PyWhatKit","Tkinter"],
+  },
   //mais projetos aqui
 ];
 

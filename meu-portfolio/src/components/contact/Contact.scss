@@ -1,0 +1,36 @@
+@use "../../styles/Variables" as *;
+
+.contact {
+    text-align: center;
+    padding: 4rem 2rem; 
+    font-family: $font-family;
+  
+    h2 {
+      color: $green;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      color: $slate;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .contact-button {
+      display: inline-block;
+      background-color: #4f46e5;
+      color: #ffffff;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #4338ca;
+      }
+    }
+  }
+  
