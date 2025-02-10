@@ -7,7 +7,6 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import "./styles/Main.scss";
 
-
 function App() {
   return (
     <>
