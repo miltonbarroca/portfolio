@@ -32,32 +32,29 @@
     }
   }
 
-  // Responsividade para telas menores
   @media (max-width: 768px) {
-    padding: 80px 20px; // Ajusta o padding para telas menores
-
+    padding: 80px 20px;
     .container {
-      max-width: 100%; // Faz com que a largura da container ocupe 100% em telas menores
-      padding-left: 20px; // Adiciona margem nas laterais
-      padding-right: 20px; // Adiciona margem nas laterais
+      max-width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     .subcontainer {
-      flex-direction: column; // Ajusta para uma coluna em telas menores
-      text-align: center; // Centraliza o texto
-
+      flex-direction: column;
+      text-align: center;
       &::after {
-        left: 0; // Alinha a linha com a largura da subcontainer
-        width: 100%; // Faz a linha ocupar a largura total
+        left: 0;
+        width: 100%;
       }
     }
 
     h2 {
-      font-size: 24px; // Reduz o tamanho do título em telas menores
+      font-size: 24px;
     }
 
     p {
-      font-size: 18px; // Ajusta o tamanho do texto
+      font-size: 18px;
     }
   }
 }
