@@ -20,15 +20,6 @@
         font-family: $font-title;
         color: $green;
       }
-
-      &::after {
-        content: "";
-        position: absolute;
-        left: 180px;
-        width: 300px;
-        height: 0.1px;
-        background-color: $slate;
-      }
     }
   }
 
@@ -36,8 +27,36 @@
     font-family: $font-title;
     font-size: 20px;
     strong {
-        color: $green;
-    }      
+      color: $green;
+    }
+  }
+
+  // Responsividade para telas menores
+  @media (max-width: 768px) {
+    padding: 80px 20px; // Ajusta o padding para telas menores
+
+    .container {
+      max-width: 100%; // Faz com que a largura da container ocupe 100% em telas menores
+      padding-left: 20px; // Adiciona margem nas laterais
+      padding-right: 20px; // Adiciona margem nas laterais
+    }
+
+    .subcontainer {
+      flex-direction: column; // Ajusta para uma coluna em telas menores
+      text-align: center; // Centraliza o texto
+
+      &::after {
+        left: 0; // Alinha a linha com a largura da subcontainer
+        width: 100%; // Faz a linha ocupar a largura total
+      }
+    }
+
+    h2 {
+      font-size: 24px; // Reduz o tamanho do título em telas menores
+    }
+
+    p {
+      font-size: 18px; // Ajusta o tamanho do texto
+    }
   }
 }
-// https://v4.brittanychiang.com/#jobs
