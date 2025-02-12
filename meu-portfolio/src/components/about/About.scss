@@ -3,17 +3,18 @@
 .about {
   padding: 150px 0;
   color: $white;
-  text-align: left;
+  text-align: center;
 
   .container {
     max-width: 800px;
     margin: 0 auto;
 
     .subcontainer {
-      position: relative; 
+      position: relative;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
+      text-align: center;
 
       h2 {
         font-size: 32px;

@@ -6,12 +6,12 @@ const SidebarLeft = () => {
     <aside className="sidebar-left">
       <ul className="social-links">
         <li>
-          <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/miltonbarroca" target="_blank" rel="noopener noreferrer">
             <FaGithub size={20} color="white" /> {/* Ícone do GitHub */}
           </a>
         </li>
         <li>
-          <a href="https://linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/milton-barroca" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={20} color="white" /> {/* Ícone do LinkedIn */}
           </a>
         </li>

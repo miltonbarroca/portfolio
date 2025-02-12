@@ -14,9 +14,9 @@ function App() {
       <Hero />
       <SidebarLeft />
       <SidebarRight />
-      <About />
-      <Projects />
-      <Contact />
+      <div id="about"><About /></div>  {/* Seção "Sobre" */}
+      <div id="projects"><Projects /></div>  {/* Seção "Projetos" */}
+      <div id="contact"><Contact /></div>  {/* Seção "Contato" */}
     </>
   );
 }

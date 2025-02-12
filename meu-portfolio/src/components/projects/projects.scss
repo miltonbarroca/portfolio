@@ -12,7 +12,7 @@
     }
   
     .projects-grid {
-      padding-left: 100px;  
+      margin-left: 10%;
       display: grid;
       grid-template-columns: repeat(3, 1fr); // 3 colunas por linha
       gap: 20px;
