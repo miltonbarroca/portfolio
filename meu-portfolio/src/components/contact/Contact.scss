@@ -1,11 +1,13 @@
 @use "../../styles/Variables" as *;
 
 .contact {
+    height: 100vh;
     text-align: center;
     padding: 4rem 2rem; 
     font-family: $font-family;
   
     h2 {
+      margin-top: 15%;
       color: $green;
       font-size: 2rem;
       margin-bottom: 1rem;
