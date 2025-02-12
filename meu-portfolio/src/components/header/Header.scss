@@ -1,4 +1,4 @@
-@use '../../styles/Variables' as *;
+@use "../../styles/Variables" as *;
 
 .header {
   background-color: transparent;
@@ -12,18 +12,30 @@
   backdrop-filter: blur(5px);
   z-index: 1000;
   font-family: $font-family;
-  nav {
-    display: flex;
-    align-items: center;
-    padding: 0 50px;
-    width: inherit;
+  justify-content: space-between;
 
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+
+    span {
+      background: white;
+      height: 3px;
+      width: 30px;
+      margin: 5px 0;
+      transition: 0.3s;
+    }
+  }
+
+  .nav {
+    margin-left: auto;
+    padding-right: 20px;
     ul {
       list-style: none;
       display: flex;
       padding: 0;
       margin: 0;
-      margin-left: auto;
       
       li {
         a {
@@ -38,6 +50,47 @@
           }
         }
       }
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: 70px;
+    padding: 0 20px;
+
+    .menu-toggle {
+      display: flex;
+      margin-left: auto;
+      padding-right: 50px;
+    }
+
+    .nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      flex-direction: column;
+      align-items: center;
+      display: none;
+
+      ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+
+        li {
+          width: 100%;
+
+          a {
+            display: block;
+            padding: 15px;
+          }
+        }
+      }
+    }
+
+    .nav.active {
+      display: flex;
     }
   }
 }
